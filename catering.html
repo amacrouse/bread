@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catering</title>
+    <link rel="stylesheet" href="bakery.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="bakery.js"></script>
+
+</head>
+<div id="wrapper">
+    <header>
+        <h1>Catering</h1>
+    </header>
+    <body>
+
+    <ul>
+        <nav>
+            <a href="index.html"> Home</a>
+            <a href="pastry.html"> Specialty Pastries</a>
+            <a href="bread.html"> Breads</a>
+            <a href="catering.html"> Catering</a>
+            <a href="about.html"> About Us</a>
+            <a href="contact.html"> Contact</a><br>
+        </nav>
+    </ul>
+
+    <form id="orderForm">
+        <h3>Pick your pastries!</h3>
+        <p>
+            <label>
+            <input type="checkbox" id="c1"/>
+            Baklava
+            </label>
+            <span id="c1-price">$3</span>
+            <select id="c1-qty">
+                <option value="val0">0</option>
+                <option value="val1">1</option>
+                <option value="val2">2</option>
+                <option value="val3">3</option>
+            </select>
+
+        </p>
+        <p>
+            <label>
+            <input type="checkbox" id="c2"/>
+            Cannoli
+            </label>
+            <span id="c2-price">$4.25</span>
+            <select id="c2-qty">
+                <option value="val0">0</option>
+                <option value="val1">1</option>
+                <option value="val2">2</option>
+                <option value="val3">3</option>
+            </select>
+        </p>
+        <p>
+            <label>
+            <input type="checkbox" id="c3"/>
+            Dutch Baby
+            </label>
+            <span id="c3-price">$6.50</span>
+            <select id="c3-qty">
+                <option value="val0">0</option>
+                <option value="val1">1</option>
+                <option value="val2">2</option>
+                <option value="val3">3</option>
+            </select>
+        </p>
+        <p>
+            <label>
+            <input type="checkbox" id="c4"/>
+            Macaron
+            </label>
+            <span id="c4-price">$3.50</span>
+            <select id="c4-qty">
+                <option value="val0">0</option>
+                <option value="val1">1</option>
+                <option value="val2">2</option>
+                <option value="val3">3</option>
+            </select>
+        </p>
+        <h3>Buy your bread!</h3>
+        <p>
+            <label>
+            <input type="checkbox" id="c5"/>
+            Boule
+            </label>
+            <span id="c5-price">$5</span>
+            <select id="c5-qty">
+                <option value="val0">0</option>
+                <option value="val1">1</option>
+                <option value="val2">2</option>
+                <option value="val3">3</option>
+            </select>
+        </p>
+        <p>
+            <label>
+            <input type="checkbox" id="c6"/>
+            Brioche
+            </label>
+            <span id="c6-price">$4</span>
+            <select id="c6-qty">
+                <option value="val0">0</option>
+                <option value="val1">1</option>
+                <option value="val2">2</option>
+                <option value="val3">3</option>
+            </select>
+
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" id="c7"/>
+                Kifli
+            </label>
+            <span id="c7-price">$5.50</span>
+            <select id="c7-qty">
+                <option value="val0">0</option>
+                <option value="val1">1</option>
+                <option value="val2">2</option>
+                <option value="val3">3</option>
+            </select>
+        </p>
+        <p>
+            <label>
+            <input type="checkbox" id="c8"/>
+            Zopf
+            </label>
+            <span id="c8-price">$6</span>
+            <select id="c8-qty">
+                <option value="val0">0</option>
+                <option value="val1">1</option>
+                <option value="val2">2</option>
+                <option value="val3">3</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" id="submit"/>
+        </p>
+    </form>
+
+    <div id="total"></div>
+    <div id="error"></div>
+
+    </body>
+</html>

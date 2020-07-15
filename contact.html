@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="bakery.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="bakery.js"></script>
+
+</head>
+<div id="wrapper">
+    <header>
+    <h1>Contact</h1>
+    </header>
+<body>
+
+<ul>
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="pastry.html"> Specialty Pastries</a>
+        <a href="bread.html"> Breads</a>
+        <a href="catering.html"> Catering</a>
+        <a href="about.html"> About Us</a>
+        <a href="contact.html"> Contact</a><br>
+    </nav>
+</ul>
+
+    <h2>Contact Sammy's Bakery!</h2>
+
+<h4>Required information is marked with an asterisk *</h4>
+
+<form action="" id="contact">
+    *<label for="Name">Name:</label>
+<input type="text" id="myName" name="myName" required> <br>
+
+*<label for="Email">Email:</label>
+<input type="email" id="myEmail" name="myEmail" required> <br>
+
+<label>How did you hear about us?</label>
+<input list="websites">
+    <datalist id="websites">
+    <option value="Google">
+    <option value="Bing">
+    <option value="Facebook">
+    <option value="Friend">
+    <option value="Radio Ad">
+    </datalist> <br>
+
+    *<label for="Comments">Comments:</label>
+<textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea> <br>
+
+Send now! <input type="submit" id="button"> <br>
+
+    </body>
+</html>
